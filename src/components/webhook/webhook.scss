@@ -1,0 +1,212 @@
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  /* // margin-left: 10px; */
+  right: 0px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+input:checked + .slider {
+  background-color: #2196f3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 20px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.link-btn {
+  padding: none !important;
+  height: 35px !important;
+  background-color: #2196f3;
+  border-color: #ced4da;
+  border-left: none !important;
+  width: 40px !important;
+  color: white;
+}
+.link-btn:hover {
+  color: white !important;
+}
+#header,
+.head {
+  display: inline;
+  margin-bottom: 0rem !important;
+  align-items: center;
+}
+.link {
+  width: 310px !important;
+  height: 35px !important;
+}
+#header {
+  text-align: left;
+  font: normal normal 700 27px/35px;
+  letter-spacing: -0.1px;
+  color: #30344d;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-bottom: 0rem !important;
+}
+td {
+  vertical-align: baseline !important;
+}
+.nickname {
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: none;
+}
+.nickname:focus {
+  outline: inherit;
+  box-shadow: inherit;
+}
+.copiedLinkAlert {
+  /* // direction: rtl; */
+  height: 35px !important;
+  position: absolute;
+  z-index: 20;
+  right: 30px;
+  /* // vertical-align: baseline !important; */
+}
+.react-bootstrap-table table {
+  table-layout: auto !important;
+}
+.search-label {
+  width: 40%;
+  /* // margin-right: 1.5rem !important; */
+}
+.usage {
+  background-color: #f5f5fa;
+}
+
+.form-check-input {
+  height: 20px;
+  width: 20px;
+}
+
+.btn-question:focus,
+#link:focus,
+.link-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#hide-Blocked {
+  text-align: center;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.popup-content {
+  width: 340px !important;
+  text-align: center;
+  align-items: center;
+  padding: 15px !important;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  width: 30vw;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  /* // background-color:#ced4da */
+}
+.searchIcon {
+  width: 27px !important;
+  height: 27px !important;
+  text-align: center;
+  color: gray;
+  vertical-align: center;
+   /* display: block; */
+}
+.toggler {
+  right: 0px;
+  align-items: center;
+  text-align: center;
+}
+.col {
+  margin-left: 0vw !important;
+}
+label,
+p {
+  margin-bottom: 0rem !important ;
+}
+.poper {
+  margin-bottom: 1rem !important;
+}
+.row,
+.col {
+  margin-right: 0rem !important;
+  padding-right: 0rem !important;
+}
+
+
+.webhookList {
+  margin-top: 2vh;
+  overflow-y: auto;
+  max-height: 80vh;
+  min-height: 75vh;
+
+  .headerWebhook {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .myWebhookHeader {
+    line-height: 50%;
+    // width: 13vw;
+    height: 6vh;
+    border-radius: 0px 10px 0px 0px;
+    color: black !important;
+  }
+
+}

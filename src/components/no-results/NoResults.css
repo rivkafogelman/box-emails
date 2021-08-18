@@ -1,0 +1,33 @@
+.noMessagesHeader,.noResultsHeader,.noFromWhatsAppHeader {
+    color: #6F8396;
+  }
+  
+  .noMessagesDiv,.noResultsDiv ,.noFromWhatsAppDiv{
+    margin: 15vh 5vw 0px 5vw;
+    text-align: center;
+  }
+  
+  .noMessagesImg,.noResultsImg,.noFromWhatsAppImg {
+    margin-top: 5vh;
+    width: 20vw;
+  }
+  
+  .noMessagesFooter {
+    margin-top: 10px;
+    color: #DBDBDB;
+  }
+
+.noMessagesBtn,
+.noMessagesBtn:hover,
+.noFromWhatsAppBtn,
+.noFromWhatsAppBtn:hover {
+  margin-top: 15px!important;
+  color: #FFFFFF;
+  background-color: #A66DFF!important;
+  width: fit-content;
+  margin:auto;
+}
+.noFromWhatsAppP{
+    margin: 20px 10px;
+    font-size: 20px;
+}

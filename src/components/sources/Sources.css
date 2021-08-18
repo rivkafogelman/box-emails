@@ -1,0 +1,29 @@
+
+  .sourcesHeader {
+    color: #EBEAEA;
+    font-size: 13px;
+  }
+
+  .searchSource,.sourcesHeader {
+    padding-left: 1rem;
+    padding-bottom: 5px;
+  }
+  .sIcon{
+    margin-right: 15px;
+  }
+  /* .sorcesList{
+      height: 30vh;
+      overflow: auto;
+  } */
+
+  
+
+  .sorcesList {
+    margin-top: 3px;
+    list-style-type: none;
+    color: #EBEAEA;
+    overflow: auto;
+    max-height: 25vh;
+    margin-bottom: 5vh;
+  }
+ 

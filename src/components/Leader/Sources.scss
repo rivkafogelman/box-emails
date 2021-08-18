@@ -1,0 +1,38 @@
+$font-color: #ebeaea;
+.configuratorSourcesList {
+  .source {
+    cursor: pointer;
+    padding: 3% 0% 3% 0%;
+    width: 90%;
+    margin-left: 10%;
+    .icon {
+      padding: 0% !important;
+      margin: 0% !important;
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .source:hover,
+  .sourceSelected {
+    background-image: linear-gradient(
+      90deg,
+      rgba(101, 232, 255, 0.188235),
+      rgba(0, 108, 128, 0)
+    );
+    border-left: solid;
+    border-image: linear-gradient(180deg, #007fff, #1afffc) 1 100%;
+  }
+}
+.hrInConfiguratot {
+  width: 75%;
+}
+.lft{
+  margin-left: 28% !important;
+  padding-left: 4% !important;
+}
+@media (max-width: 767px) {
+  .configuratorSourcesList {
+    display: none !important;
+  }
+}

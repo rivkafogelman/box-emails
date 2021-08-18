@@ -1,0 +1,46 @@
+// .over:hover{
+//     background-color: red;
+// }
+  .over:hover, .selected{
+    background-color: #f1f1f324;
+  }
+
+  .sorcesList {
+
+    .invalidEmail {
+      border-width: 1px !important;
+      border-color: #f84a20 !important;
+    }
+    .newSubUserSelected {
+      background: rgba(101, 232, 255, 0.188235) 0% 0% no-repeat padding-box;
+
+    }
+
+    .oneSubUserDiv {
+      // padding: 2% 3%;
+      white-space: nowrap !important;
+      cursor: pointer;
+      // margin-left:14%;
+      p {
+        display: inline;
+      }
+     
+    }
+
+    .subUserInput:focus,
+    .subUserInput {
+
+      outline: none;
+      border-width: 0px 0px 0.5px 0px;
+      border-color: #75798e, 1px;
+      background-color: transparent;
+      margin-left: 3%;
+      width: 65%;
+      color: #afb0b9;
+      font-size: 13px;
+    }
+
+    .subUserInput::placeholder {
+       color: #afb0b9;
+    }
+  }

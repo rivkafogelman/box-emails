@@ -1,0 +1,117 @@
+.tagColorPicker,.tagColorInput {
+    width: 1px!important;
+    height: 1px!important;
+    opacity: 0;
+  }
+  .checkedTagIcon {
+    /* display: block; */
+    color: #26335E;
+    padding-left: 1.5px;
+    padding-top: 2.5px;
+    font-size: 7px;
+  }
+  
+  .tagIcons {
+    padding-right: 10px;
+    float: right;
+  }
+  
+  .tagIcon {
+    padding-left: 5px;
+  }
+
+.tagColorDivInConfigurator, .tagColorDiv, .tagColorDivAll {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 1.5px;
+  border: 1px solid white;
+  position: relative;
+}
+.check,
+.check svg{
+  position: absolute;
+  font-size: 13px;
+}
+
+.tagColorDiv {
+  margin-right: 5px;
+}
+/* .oneTagDiv {
+  padding-bottom: 10px;
+}
+.oneTagDiv .tagTxt{
+padding-left: 10px;
+} */
+
+.oneTagDiv {
+  padding-left: 1rem!important;
+  padding: 3px;
+}
+.oneTagDiv p{
+  display: inline;
+  /* padding-left: 8px */
+}
+
+
+.searchTag p {
+  white-space: nowrap;
+  margin-left: 13px;
+  text-transform: capitalize;
+  outline: none;
+  border-width: 0px 0px 0.5px 0px;
+  border-color: #75798E;
+  background-color: transparent;
+  color: #FFFFFF;
+  padding-bottom: 3px;
+}
+
+.searchStar{
+    margin-top: -5px;
+    font-size: 17px;
+    margin-left: -1.5px;
+    margin-right: 11px;
+}
+.addCategoryDiv{
+  padding-left: 1rem!important;
+}
+.labelsColorDiv {
+  display: inline-block;
+  /* update */
+  margin-bottom: -3px;
+  border: 1px solid #ffff;
+  width: 14px;
+  height: 14px;
+  border-radius: 1.5px;
+}
+
+.tagTitleInput:focus,
+.tagTitleInput {
+  /* text-transform: capitalize; */
+  outline: none;
+  border-width: 0px 0px 0.5px 0px;
+  border-color: #75798E, 1px;
+  background-color: transparent;
+  margin-top: 3px;
+  /* update */
+  width:78%;
+  color: #afb0b9;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+  font-size: 13px;
+}
+
+.tagTitleInput::placeholder {
+  color: #afb0b9;
+}
+
+.allTags p{
+  margin-left: 0px!important;
+}
+.tagsList {
+  margin-top: 5px;
+  height: 17%;
+  overflow: auto;
+  color: #EBEAEA;
+}

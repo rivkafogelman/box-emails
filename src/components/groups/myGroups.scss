@@ -1,0 +1,337 @@
+.nameExistsError {
+  color: #f84a20;
+  display: block;
+  margin-left: 10px;
+}
+.myGroupHeader {
+  line-height: 50%;
+  width: 60vw;
+  height: 6vh;
+  // background: var(--unnamed-color-3598f4) 0% 0% no-repeat padding-box;
+  // background-color: rgba(53, 152, 244, 0.1);
+  // background: #3598F4 0% 0% no-repeat padding-box;
+  border-radius: 0px 10px 0px 0px;
+  // opacity: 0.1;
+  color: black !important;
+}
+
+.hrGroup {
+  color: #98a9bc;
+}
+
+
+.rowMemberGroup {
+  // height: 8vh;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  opacity: 1;
+  border-bottom: 1px solid;
+  border-color: #f1f1f3 !important;
+  color: #000000 !important;
+  .Icon {
+    cursor: pointer;
+    
+  }
+  .nameProfil {
+    cursor: pointer;
+    border-radius: 30px;
+    width: 33px;
+    height: 33px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* border: 1.5px solid #3598f4; */
+    padding: 0.5px;
+  }
+  .nameProfil span {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 8px;
+  }
+
+  .nameProfilSmall {
+    // width: 30px;
+    // height: 30px;
+    align-items: center;
+  }
+  .nameProfilsBig {
+    // margin-top: 15px;
+    // width: 30px;
+    // height: 30px;
+    // font-size: px;
+    padding-top: 4.5px;
+    align-items: center;
+  }
+}
+.rowGroup {
+  // height: 42px;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  // padding-top: 1vh;
+  // padding-bottom: 1vh;
+  opacity: 1;
+  border-bottom: 1px solid;
+  border-color: #f1f1f3 !important;
+  color: #000000 !important;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  .Icon {
+    cursor: pointer;
+    margin-left: 2vh;
+  }
+  .garbage{
+    stroke: black !important;
+    color: black !important;
+   
+  }
+}
+
+.rowGroup:hover {
+  background-color: #EBEAEA;
+}
+
+.groupsBody {
+  // padding-left: 5vw;
+  // padding-right: 5vw;
+  // padding-top: 1vh;
+  margin-top: 2vh;
+  overflow-y: auto;
+  max-height: 80vh;
+  min-height: 75vh;
+
+  .alertDiv {
+    margin-top: 8px;
+  }
+  .alertClass {
+    margin-left: 1vw;
+    color: #2382DB;
+    font-size: small;
+  }
+
+  .headerGroup {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid;
+    border-color: #f1f1f3 !important;
+  }
+
+  .headerText {
+    max-width: 130px;
+  }
+  .create {
+    height: 6vh;
+    line-height: 50%;
+    background-color: #3598f4;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-top: 7px;
+  }
+
+  .newMember {
+    padding-left: 0px !important;
+    b {
+      margin-left: 0.5vw !important;
+    }
+  }
+
+  .newGroupCard {
+    padding-bottom: 6vh;
+    border-radius: 5px;
+    background-color: white;
+    border-top: 5.5px solid #3598f4;
+    height: 100%;
+
+    box-shadow: 0px 3px 6px #00000029;
+    
+    b {
+      color: #0A102E;
+    }
+
+    p {
+      color: #7B7D86;
+    }
+
+    .rowCreateGroup {
+      padding-left: 8vw;
+      padding-right: 4vw;
+      opacity: 1;
+      color: #000000 !important;
+    }
+
+    input {
+      width: 130px;
+      height: 25px;
+      border: 0.5px solid var(--unnamed-color-7b7d86);
+      border: 0.5px solid #7B7D86;
+      border-radius: 5px;
+    }
+
+    .newGroupHeader { 
+      padding-left: 2vw;
+      padding-right: 2vw;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+    }
+
+    .newContactIcon{
+      width: 20px !important;
+      height: 20px !important;
+      margin-left: 4px;
+      margin-bottom: 3px;
+    }
+
+  }
+  // .flow {
+  //   overflow-y: auto ;
+  // }
+}
+
+.rowGroup,
+.rowMemberGroup {
+  b {
+    color: #0a102e;
+    // line-height: ;
+    margin: auto;
+    margin-left: 1vw !important;
+  }
+  p {
+    color: #7b7d86;
+  }
+  .garbage {
+    width: 18px;
+    height: 19px;
+  }
+  button {
+    // width: 5vw;
+    // height: 4vh;
+    //     border-radius: 6px;
+    //     opacity: 1;
+
+    //     border: none;
+    //     color: #7B7D86;
+    //     background-color: #F1F1F3 !important;
+  }
+
+  .nameExistsError {
+    color: #f84a20;
+    display: block;
+    margin-left: 15px;
+  }
+
+  .emailContact {
+    line-height: 50%;
+  }
+  .profilContact {
+    padding: 0px !important;
+    margin-left: 2vw !important;
+    line-height: 50%;
+    display: flex;
+  }
+  .buttonUpdate {
+    margin-left: 1vw !important;
+  }
+  color: #0a102e;
+  // margin-top: 1vh;
+
+  .groupName {
+    // min-width: 30vw;
+    // vertical-align: middle;
+  }
+}
+
+.newContactIcon {
+  width: 33px !important;
+  height: 33px !important;
+}
+
+.contacts {
+  margin-left: 10vh;
+}
+.openOptionIcon {
+  cursor: pointer !important;
+}
+
+.selectedGroup .openOptionIcon {
+  transform: rotate(90deg);
+}
+
+.groupInput {
+  display: inline;
+  width: max-content;
+  height: 3.5vh;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  border-width: 0 !important;
+  outline: none !important;
+  // border-radius: 30px;
+  padding: 4px 8px;
+  margin-bottom: 0px !important;
+  overflow-y: auto;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-top: 7px;
+}
+
+.invalidName,
+.invalidEmail {
+  border-width: 1px !important;
+  border-color: #f84a20 !important;
+}
+
+.CreateGroup {
+  padding-top: 8px;
+  padding-left: 15vw;
+  margin-left: 1vw;
+  .newEmailInput {
+    margin-left: 1vw;
+  }
+  .invalidName {
+    border-width: 1px !important;
+    border-color: #f84a20 !important;
+  }
+  .nameExistsError {
+    color: #f84a20;
+    display: block;
+    margin-left: 10px;
+  }
+  .closeCreateGroup {
+    color: #7b7d86;
+    // float: inherit;
+  }
+  .groupEmailsLine {
+    margin-top: 5px;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    border: 1px solid #3598f4;
+    border-radius: 30px;
+    color: #3598f4;
+    margin-left: 160px;
+    .createGroupPlus {
+      margin: 0 5px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}
+
+.contactCircle {
+  height: 33px;
+  width: 33px;
+  margin-top: 7px;
+  border-radius: 30px;
+  color: #7b7d86;
+  background-color: #f0f0f3;
+  border: solid 1px #7b7d86;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 27px;
+    margin: auto;
+  }
+}

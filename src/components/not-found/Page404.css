@@ -1,0 +1,20 @@
+.page404Div{
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+    background-color: white;
+}
+.group_614_img{
+    height: 70vh;
+    float: right;
+    margin-right:5vw ;
+}
+.left ,.right{
+    flex-grow: 1;
+}
+.left{
+display: flex;
+flex-direction: column;
+justify-content:center;
+margin: auto;
+}

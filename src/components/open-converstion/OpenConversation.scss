@@ -1,0 +1,275 @@
+.openConversationDiv {
+  padding: 10px;
+  overflow: auto;
+  padding-right: 3%;
+  height: 95vh;
+  hr {
+    margin: 5px;
+    // border-top: 1px solid #f1f1f3;
+  }
+  span {
+    cursor: pointer;
+  }
+  .replyOptions {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 3%;
+    .option {
+      cursor: pointer;
+      padding: 5px 10px;
+      margin-right: 10px;
+      color: #7b7d86;
+    
+      img {
+        padding-right: 2px;
+      }
+    }
+    .option:hover {
+      border-radius: 3px;
+      background-color: #f1f1f3;
+    }
+  }
+  .pdfPadding {
+    padding-left: 20;
+  }
+
+  .paddingPdf {
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  .title {
+    padding-bottom: 2px;
+    .subject {
+      color: #0a102e;
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 15px;
+    }
+    .tagInConv {
+      border-radius: 3px;
+      color: white;
+      // margin: 0 2px;
+      display: inline;
+      float: none;
+      .name {
+        margin-right: 0;
+        padding: 2px 6px;
+        background-color: rgb(251, 16, 216);
+        border-radius: 3px;
+      }
+      .delete {
+        visibility: hidden;
+        cursor: pointer;
+        margin-left: 0;
+        background-color: #53535335;
+        color: slategray;
+        padding: 2px 4px;
+        border-radius: 0 3px 3px 0;
+      }
+    }
+    .tagInConv:hover {
+      .name {
+        border-radius: 3px 0 0 3px;
+      }
+      .delete {
+        visibility: visible !important;
+      }
+    }
+    .trashIcon {
+      width: 17px;
+      height: 17px;
+      margin-right: 4px;
+    }
+    .reply {
+      cursor: pointer;
+      color: #7b7d86;
+      overflow: auto;
+      float: right;
+      .replyIcon {
+        font-size: 20px;
+      }
+    }
+    .pdfImage {
+      // margin-left: 1vw;
+      margin-right: 0.5vw;
+      width: 18px;
+      height: 18px;
+    }
+  }
+  .details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    .leftDiv {
+      //?
+      // flex-grow: 0.5;
+      // padding: 5px 0;
+    }
+    .fromAndTo {
+      margin-left: 1vw;
+      // flex-grow: 8;
+      .from {
+        font-weight: bold;
+        color: #43425d;
+      }
+      .to {
+        color: #a0aabe;
+      }
+    }
+    .profileImg {
+      width: 35px;
+    }
+    .profileImgDiv {
+      // flex-grow: 0.5;
+      padding: 5px 0;
+    }
+    .date {
+      flex-grow: 2;
+      text-align: right;
+      color: #a0aabe;
+      margin-right: 0.5vw;
+      margin-top: 10px;
+    }
+    .reply {
+      cursor: pointer;
+      color: #7b7d86;
+      float: right;
+      .replyIcon {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .filesInOpenConv {
+    display: flex;
+    .attachedFile {
+      cursor: pointer !important;
+      border-radius: 3px;
+      margin: 0 5px 10px 5px;
+      width: 150px;
+      height: 100px;
+      background-color: #f1f1f3;
+      // position: relative !important;
+
+      .fileHeaderImg {
+        font-weight: bold;
+        // white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // padding: 2px 4px;
+        text-align: right;
+        position: relative !important;
+        .imgFile {
+          width: 100%;
+          height: 100px;
+          z-index: 1;
+          position: relative !important;
+          opacity: 1;
+          filter: brightness(100%);
+        }
+        .imgFile:hover,
+        .imgName :hover {
+          opacity: 1.4;
+          mix-blend-mode: darken;
+          filter: brightness(70%);
+        }
+
+        .imgName {
+          position: absolute !important;
+          margin-left: 10px;
+          margin-right: 3px !important;
+          // margin: 4px;
+          text-align: left;
+          bottom: 10px;
+          z-index: 2;
+          visibility: hidden;
+          color: white;
+          width: 80%;
+        }
+
+        .downloadImagIcon {
+          position: absolute !important;
+          z-index: 2;
+          visibility: hidden;
+          color: white;
+          bottom: 10px;
+          right: 5px;
+        }
+      }
+      .fileHeader {
+        // color: white;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 2px 4px;
+        text-align: right;
+      }
+      .downloadFileIcon {
+        text-align: center;
+        visibility: hidden;
+        margin-top: 20px;
+        color: gray;
+      }
+    }
+    .attachedFile:hover .downloadFileIcon {
+      visibility: visible;
+    }
+    .attachedFile:hover .imgName {
+      visibility: visible;
+    }
+
+    .attachedFile:hover .downloadImagIcon {
+      visibility: visible;
+    }
+  }
+  .pdfIcon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .overFlow {
+    // height: 80vh;
+    height: 80vh;
+    // height: 373px;
+    overflow-y: auto;
+    overflow-x: auto;
+    // height: 70vh;
+    width: 100%;
+    overflow: auto;
+
+    .body {
+      color: #777e8e;
+      flex-grow: 8;
+      margin: 10px 10px 10px 45px !important;
+      padding-right: 5.7vw;
+      // padding-left: 3.5vw;
+      width: 100%;
+      position: relative;
+      overflow-y: auto;
+      overflow-x: auto;
+      //max-width: fit-content;
+      text-align: start !important;
+      unicode-bidi: plaintext !important;
+      p {
+        // padding-left: 2;
+        text-align: start !important;
+        unicode-bidi: plaintext !important;
+        img {
+          width: 25px ;
+          height: 25px ;
+        }
+      }
+      div {
+        text-align: start !important;
+        unicode-bidi: plaintext !important;
+        div {
+          text-align: start !important;
+          unicode-bidi: plaintext !important;
+        }
+      }
+    }
+  }
+}

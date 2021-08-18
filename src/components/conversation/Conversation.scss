@@ -1,0 +1,309 @@
+.readedConversation {
+  background-color: #f1f1f3 !important;
+  cursor: pointer;
+}
+.checkedConversation {
+  background-color: #e0f0ff !important;
+}
+.warpProfile {
+}
+// .profile {
+//   padding-right: 10px;
+//   .contactThumbnail {
+//     border-radius: 30px;
+//     width: 30px;
+//   }
+// }
+.avatar {
+  border-radius: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  // border: 1.5px solid #3598f4;
+  // padding: 0.5px;
+  border-color: #b6b3fc;
+  cursor: pointer;
+//   .nameLettersBig{
+//   .showChecked{
+//     width: 33px;
+//     height: 33px;
+//   }
+// }
+}
+.nameLettersSmall {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+}
+.nameLettersBig {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  // font-size: px;
+  padding-top: 4.5px;
+  align-items: center;
+  .showChecked{
+    width: 33px;
+    height: 33px;
+  }
+}
+.sourceCircle {
+  height: 33px;
+  width: 33px;
+  margin-top: 7px;
+  border-radius: 30px;
+  color: #7b7d86;
+  background-color: #f0f0f3;
+  border: solid 1px #7b7d86;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 27px;
+    margin: auto;
+  }
+}
+.changeColor {
+  background-color: darkmagenta;
+}
+
+.unCheckedStar {
+  color: #c9ced8;
+}
+.checkedStar {
+  color: #f2eb0e;
+  /* color: #f2290e; */
+}
+.conversationStar {
+  font-size: 20px;
+  margin-top: -5px;
+  padding-left: 5px;
+}
+
+.unCheckedFlag {
+  // color: #c9ced8;
+  color: #f84a20;
+}
+.checkedFlag {
+  color: #f84a20;
+  /* color: #f2290e; */
+}
+.conversationFlag {
+  font-size: 20px;
+  margin-top: -3px;
+  padding-left: 5px;
+}
+
+.conversationDate {
+  padding-right: 5px;
+}
+
+.starIcon {
+  margin-bottom: 1px !important;
+  height: 16px;
+  width: 16px;
+}
+.followUpIcon {
+  font-size: 20px;
+  // margin-top: 2px !important;
+}
+.waveBody,
+.subject {
+  // margin-bottom: 5px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.waveBody {
+  color: #7b7d86;
+}
+.fromNames {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fromNames,
+.subject {
+  font-size: 15px;
+  color: #0a102e;
+}
+// .fromAndNum {
+//   // padding-right: 15px;
+//   // display: flex;
+//   // right: 5%;
+// }
+.tagInConv {
+  font-size: 10px;
+  padding: 0px 5px 2px 5px;
+  margin-top: 3px;
+  border-radius: 3px;
+  width: fit-content;
+  display: inline;
+  color: #ffff !important;
+}
+.contactHref {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  // font: normal normal bold 16px/19px Roboto;
+  // letter-spacing: 0px;
+  opacity: 0.8;
+}
+// .contactHref:hover {
+//   text-decoration: underline;
+// }
+.conversationAttachements {
+  color: #4f5a7c;
+  margin-top: 3px;
+  display: block;
+}
+.dateAndMore.high {
+  display: inline;
+}
+
+.dateAndMore {
+  // flex-grow: 2;
+  white-space: nowrap;
+  flex: 0 1 auto;
+  display: flex;
+  // flex-direction: column;
+  // align-items: flex-end;
+  align-items: flex-start;
+
+  .dateLine {
+    display: flex;
+    align-items: center;
+    .form-check-input {
+      position: unset !important;
+      margin: 4px 0 0 3px !important;
+    }
+  }
+  .readedAndFile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10px;
+    .fileInConv {
+      margin-right: 7px;
+      width: 0.6rem;
+      float: right;
+    }
+  }
+}
+
+.smallDivConver {
+  height: 50px !important;
+  margin: 0 !important;
+  .contactImg {
+    margin-top: 0 !important;
+  }
+}
+.conversationDiv,
+.smallDivConver {
+  user-select: none;
+  cursor: pointer !important;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  padding: 9px 10px 10px 15px;
+  border-bottom: 1px solid #ced3d8 !important;
+  .centeralDiv {
+    cursor: grab !important;
+    overflow: hidden;
+    flex-grow: 1;
+    width: 100%;
+    margin-left: 12px;
+    // flex: 1 1 auto;
+    // position: relative;
+  }
+}
+
+.selectedConversation,
+.conversationAndLeaderDiv:hover,
+.conversationDiv:hover {
+  z-index: 2;
+  box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 #ced3d8,
+    0 1px 3px 1px #ced3d8;
+  // border: 10px 0px 0px 0px solid #ced3d8 ;
+}
+.numWaves {
+  margin-left: 3px;
+  color: #4e4a4a;
+  display: inline;
+}
+
+.showChecked {
+  background-color: #3598f4 !important;
+}
+// .converBlock {
+//   display: inline-block;
+// }
+
+.waveBody {
+  right: 6%;
+}
+.IoTrashIcons {
+  font-size: 20px;
+  margin-left: 12%;
+}
+
+.flagPopover {
+  border: none !important;
+  height: 160px;
+  width: 180px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.flagTitel {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 4px;
+}
+
+ Button.saveFlag {
+  margin-top: 4%;
+  /* left: 998px; */
+ text-align:center !important;
+  width: 60px;
+  height: 30px;
+  //color: var(--unnamed-color-7b7d86);
+  border-radius: 2px;
+ // text-align: left;
+  letter-spacing: 0px;
+  background-color: #3598F4;
+ color:white;
+  opacity: 1;
+}
+
+.inputFlag {
+  width: 140px;
+  height: 30px;
+  color: #0a102e;
+  background-color: #f1f1f1;
+  opacity: 0.8;
+  margin-top: 3%;
+  border-radius: 3px;
+  border: none !important;
+  outline: none !important;
+  font-size: 14px;
+  margin-left: 5%;
+}
+.spam {
+  color: rgba(0, 0, 0, 0.1);
+  padding-left: 3px;
+}
+.spamInBox {
+  color: rgb(179, 0, 0);
+  padding-left: 3px;
+  // height: 17px;
+  // width: 17px;
+}

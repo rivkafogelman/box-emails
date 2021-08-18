@@ -1,0 +1,60 @@
+.draftsList {
+  height: 85vh;
+  overflow-y: auto;
+  padding-top: 7px;
+  .draft {
+    cursor: pointer !important;
+    display: flex;
+    // align-content: space-between;
+    width: 100%;
+    background-color: #f1f1f3;
+    padding: 7px 20px;
+    border-bottom: 1px solid #b6b3fc;
+    .leftDiv {
+      flex: 0 1 auto;
+      .title {
+        //   flex-grow: 1;
+        padding-right: 20px;
+        color: #f84a20;
+      }
+      .subject {
+        //   flex-grow: 2;
+        padding-right: 5px;
+        color: #0a102e;
+      }
+    }
+
+    .body,
+    .date {
+      color: #7b7d86;
+    }
+    .centeralDraftDiv {
+      overflow: hidden;
+      //to fix it!!!
+      flex-grow: 1;
+      flex: 1 1 auto;
+      //   flex: 1 1 auto;
+      width: 200px;
+      .draftBody {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .dateAndMore {
+      float: right;
+      flex: 0 1 auto;
+      .date {
+        text-align: right;
+      }
+      .more {
+        // flex-grow: 0.5;
+        text-align: right;
+        .filesIcon {
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}

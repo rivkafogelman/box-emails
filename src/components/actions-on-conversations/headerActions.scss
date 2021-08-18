@@ -1,0 +1,76 @@
+.actionsDivHeader {
+  // flex-grow: 3;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+ 
+  .darkText {
+    color: black;
+  }
+  .lightText {
+    color: white
+  };
+  .action:hover,
+  .createAction:hover {
+    background-color:rgba(241, 241, 243, 0.384);
+  }
+
+  img {
+    padding-bottom: 3%;
+  }
+  
+
+  .createActions {
+    display: flex;
+   
+
+    .createSpan {
+      // color: white;
+      margin: auto 10px;
+    }
+    .createAction {
+      cursor: pointer;
+      // color: white;
+      border-radius: 3px;
+      padding: 2%;
+      margin: 0 10px 2px;
+      display:block;
+      text-align:center;
+      //float:left;
+      .createName {
+        padding-left: 4px;
+      }
+    }
+    .createAction.active {
+      background-color: #87c5ff;
+    }
+  }
+  
+
+  .strokeDark {
+    stroke:black !important ;
+  }
+  
+  .strokeLight {
+    stroke: white;
+  }
+
+  .fillDark {
+    stroke:black !important ;
+  }
+  
+  .fillLight {
+    stroke: white;
+  }
+  
+}
+
+
+@media (max-width: 767px) {
+  .actionsDiv {
+    margin: 0;
+  }
+  .createActions {
+    display: none !important;
+  }
+}

@@ -1,0 +1,107 @@
+.conversationsListHeader {
+  user-select: none;
+  padding: 10px 10px 0 0;
+   
+.headerGroup{
+  align-items: center ;
+  
+}
+  .title {
+    color: #0a102e;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0.5vw;
+    line-height: normal;
+    // float: left;
+    // line-height: 90%;
+  }
+  .option {
+    cursor: pointer;
+    color: #7b7d86;
+    float: right !important;
+  }
+   .ScreenDispaly {
+     cursor: pointer;
+     color: #7b7d86;
+    //  padding: 5px 1px;
+     float: right !important;
+    //  margin-right: 10px;
+   }
+  .deleteAllInTrashLabel {
+    cursor: pointer;
+    margin-left: 30%;
+    color: #87c5ff;
+    border-radius: 4px;
+    padding: 3px;
+    display: inline;
+  }
+  @media (max-width: 767px) {
+    .openConversationIcon {
+      display: none;
+    }
+  }
+  .icon {
+    // margin-right: 1vw;
+  }
+  .leftIcon {
+    margin-left: 0.5vw;
+  }
+  hr {
+    margin-top: 5px;
+    // background-color: whitesmoke;
+    background-color: lightgray;
+    opacity: 0.3;
+  }
+  span {
+    cursor: pointer;
+  }
+  .replyOptions {
+    display: flex;
+    padding-left: 5%;
+    .option {
+      cursor: pointer;
+      padding: 5px 10px;
+      margin-right: 10px;
+      color: #7b7d86;
+      img {
+        padding-right: 2px;
+      }
+    }
+    .option:hover {
+      border-radius: 3px;
+      background-color: #f1f1f3;
+    }
+  }
+}
+
+//   // height: 85vh;
+//   .___header {
+//     // margin: ;
+//     .title {
+//       color: #0a102e;
+//       font-size: 20px;
+//       font-weight: bold;
+//       margin-left: 0%;
+//     }
+//     .deleteAllInTrashLabel {
+//       cursor: pointer;
+//       margin-left: 30%;
+//       color: #87c5ff;
+//       border-radius: 4px;
+//       padding: 3px;
+//       display: inline;
+//     }
+//     @media (max-width: 767px) {
+//       .openConversationIcon {
+//         display: none;
+//       }
+//     }
+//   }
+
+//   .icon {
+//     margin-right: 1vw;
+//   }
+//   hr {
+//     background-color: lightgray;
+//   }
+// }

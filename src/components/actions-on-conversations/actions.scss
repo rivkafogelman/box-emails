@@ -1,0 +1,161 @@
+.actionsDiv {
+  // flex-grow: 3;
+  display: flex;
+  margin-left: 20px;
+  //  align-items: center;
+  .dropdown-menu {
+    max-height: 200px;
+    overflow-y: auto;
+    .dropdownItemLabel {
+      margin: 2%;
+      border-radius: 5px;
+    }
+  }
+  .action {
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    // background-color: red;
+    > img {
+      padding-bottom: 0% !important;
+    }
+  }
+
+  .darkText {
+    color: black;
+  }
+  .lightText {
+    color: white
+  };
+  .action:hover,
+  .createAction:hover {
+    background-color: #89919138;
+  }
+  .lableAction {
+    position: relative;
+  }
+
+  img {
+    padding-bottom: 3%;
+  }
+  .imgIcon {
+    padding-bottom: 26%;
+    padding-right: 10%;
+  }
+
+  .createActions {
+    display: flex;
+    .divider {
+      font-size: 30px;
+      font-weight: 100;
+      // color: white;
+      margin-left: 1%;
+    }
+
+    .createSpan {
+      // color: white;
+      margin: auto 10px;
+    }
+    .createAction {
+      cursor: pointer;
+      // color: white;
+      border-radius: 3px;
+      padding: 2%;
+      margin: 0 1px;
+      display: flex;
+      align-items: center;
+      .createName {
+        padding-left: 4px;
+      }
+    }
+    .createAction.active {
+      background-color: #87c5ff;
+    }
+  }
+  .dropdown-item {
+    width: unset !important;
+  }
+  .dropdown {
+    display: inline;
+    // background-color: rebeccapurple;
+  }
+  .dropdownAction {
+    background-color: unset !important;
+    border: unset !important;
+    color: white;
+    border-radius: 3px;
+    width: -moz-fit-content;
+    width: max-content;
+    padding: 7px;
+  }
+  .dropdownAction:hover {
+    background-color: #89919138!important;
+  }
+
+  .tagsDropdown {
+    min-width: 170px;
+  }
+  // .dropdownLabelImg {
+  //   margin-bottom: 15%;
+  // }
+  .dropdownFilterImg {
+    margin-bottom: 3%;
+  }
+  .srcImg {
+    width: 25%;
+  }
+
+  .disable {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  .pdfImage {
+    width: 5vw;
+    height: 5vh;
+    margin-top: 2vh;
+  }
+
+  .strokeDark {
+    stroke:black !important ;
+  }
+  
+  .strokeLight {
+    stroke: white;
+  }
+
+  .fillDark {
+    stroke:black !important ;
+  }
+  
+  .fillLight {
+    stroke: white;
+  }
+  
+}
+input {
+  // padding-bottom: 1% !important;
+  width: 3vh;
+  height: 3vh;
+}
+.selectAll {
+  // color: white !important;
+  padding: 0% !important;
+}
+
+.selectLight {
+  color: white !important
+}
+.selectDark {
+  color: black !important;
+}
+
+@media (max-width: 767px) {
+  .actionsDiv {
+    margin: 0;
+  }
+  .createActions {
+    display: none !important;
+  }
+}

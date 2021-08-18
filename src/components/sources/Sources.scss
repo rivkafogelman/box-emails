@@ -1,0 +1,19 @@
+.sorcesList{
+    margin-top: 3px;
+    padding-left: 20px;
+    color: #EBEAEA;
+    overflow: auto;
+    max-height: 17vh;
+    .source{
+        cursor: pointer;
+        padding: 2px;
+        margin: 1px;
+    }
+    .source:hover,
+    .selected{
+        background-color: #f1f1f324;
+      }
+    .name{
+padding-left: 10px;
+    }
+}

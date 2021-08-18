@@ -1,0 +1,28 @@
+.conversationsListContainer {
+  height: 100vh;
+  overflow: hidden;
+  .conversationsList {
+    border-width: 0px;
+    width: 100%;
+    flex-grow: 1;
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+    .innerDivv {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+  }
+  .container {
+    padding: 10px;
+    max-width: 1350px;
+    hr {
+      margin: 5px;
+    }
+  }
+}

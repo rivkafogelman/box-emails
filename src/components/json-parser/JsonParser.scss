@@ -1,0 +1,301 @@
+.JsonPArserCard {
+    border-radius: 10px;
+    background-color: white;
+    border-top: 5.5px solid #3598f4;
+    height: 100%;
+    // max-width: 300px;
+    // overflow: auto;
+    //padding-left: 8%;
+
+    .JsonPArserHeader {
+        text-overflow: ellipsis;
+        text-align: center;
+        padding: 13px 0px 4px 0px;
+        border-bottom: 1px solid whitesmoke;
+        font: medium;
+
+        .closeIcon {
+            //  cursor: pointer;
+            float: left;
+            margin: 0% 0% 3% 4%;
+        }
+    }
+    .contectCard {
+        padding: 20px 25px;
+    }
+    em {
+        font-family: Arial;
+        font-style: normal;
+    }
+
+    .jParserContent {
+       
+        padding: 25px 10px;
+        overflow-y: auto;
+        overflow-x: auto;
+        height: 65vh;
+        max-width: 270px !important;
+        font-size: small;
+        .bodyContentRight {
+            margin-top: 1em !important;
+            text-align: start !important;
+            unicode-bidi: plaintext !important;
+            direction: rtl ;
+            padding-left: 10px;
+        }
+        .bodyContentLeft {
+            margin-top: 1em !important;
+            padding-left: 10px;
+        }
+    }
+
+    select,
+    input,
+    textarea,
+    input:focus,
+    textarea:focus {
+        background-color: #f1f1f1;
+        border-radius: 3px;
+        border: none !important;
+        outline: none !important;
+        height: 5vh;
+        font-size: 14px;
+    }
+    .requestIp,
+    .subject,
+    .body {
+        //max-width: 300px;
+        color: #0a102e;
+        width: 100%;
+        height: 5vh;
+        background-color: #f1f1f1;
+    }
+
+    .footerBtn {
+        display: flex;
+        justify-content: center;
+        padding: 4%;
+
+        .save {
+            color: white;
+            background-color: #3598f4;
+            margin-top: 5%;
+            margin-right: 5%;
+            width: 5vw;
+            // width: auto;
+            text-align: center;
+        }
+    }
+    label {
+        color: #7b7d86;
+        //  margin-left: 2%;
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+    .feildInJp {
+        //padding-right: 3%;
+        padding-left: 3%;
+        margin-bottom: 2%;
+
+        .showall {
+            font-size: small;
+            // text-align:right;
+            float: right;
+            .label {
+                overflow: hidden;
+            }
+        }
+    }
+
+    .subject {
+        margin-top: 2%;
+        height: 5vh;
+    }
+
+    .requestIp {
+        margin-top: 2%;
+        margin-bottom: 5%;
+        height: 5vh;
+    }
+
+    // .optionLine {
+    //     display: flex;
+    //     margin-top: 5px;
+    //     .checkOption {
+    //         cursor: pointer;
+    //         display: flex;
+    //         padding: 2px;
+    //         margin-right: 3px;
+    //         border: 1.5px solid #87c5ff;
+    //         background-color: white;
+    //         color: white;
+    //         border-radius: 30px;
+    //         width: 20px !important;
+    //         height: 20px !important;
+    //         cursor: pointer;
+    //     }
+
+    // .checkedOption {
+    //     border: 1.5px solid #44d7b6 !important;
+    //     background-color: #44d7b6 !important;
+    // }
+    // .file {
+    //     white-space: nowrap;
+    //     overflow: hidden;
+    //     text-overflow: ellipsis;
+
+    //     display: flex;
+    //     align-items: center;
+    //     background-color: #f1f1f1;
+    //     border-radius: 3px;
+    //     padding: 2px;
+    //     .fileImg {
+    //         width: 15px;
+    //         margin: 5px;
+    //     }
+    //     span {
+    //         font-weight: normal;
+    //         float: right;
+    //     }
+    // }
+    // }
+}
+
+// .JsonPArserCard {
+//     border-radius: 10px;
+//     background-color: white;
+//     border-top: 5.5px solid #3598f4;
+//     height: 100%;
+//     .JsonPArserHeader {
+//         text-align: center;
+//         padding: 13px 0px 1px 0px;
+//         border-bottom: 1px solid whitesmoke;
+
+//         .trashIcon {
+//             cursor: pointer;
+//             margin-top: -5%;
+//             float: left;
+//         }
+//     }
+//     .closeIcon {
+//         margin: 0% 0% 3% -2%;
+//     }
+//     .contectCard {
+//         padding: 20px 25px;
+//     }
+//     .jParserContent {
+//         padding: 20px 25px;
+//         overflow-y: auto;
+//         overflow-x: hidden;
+//         height: 65vh;
+//     }
+//     select,
+//     input,
+//     textarea,
+//     input:focus,
+//     textarea:focus {
+//         background-color: #f1f1f1;
+//         border-radius: 3px;
+//         border: none !important;
+//         outline: none !important;
+//         height: 5vh;
+//         font-size: 14px;
+//     }
+//     .feildInJp{
+
+//                 padding-right: 7%;
+//                 padding-left: 3%;
+//                // margin-bottom: 5%;
+
+//             }
+// .subject{
+//     margin-top: 1%;
+//     height:4vh;
+//     margin-bottom: 5%;
+// }
+
+// .requestIp{
+//   //  margin-top: 2%;
+//  //   margin-bottom: 5%;
+//     height:4vh;
+// }
+
+//     .subject,
+//     .body {
+//         color: #0a102e;
+//         width: 100%;
+//         height: 5vh;
+//         background-color: #f1f1f1;
+//         text-indent: 5px;
+//     }
+//     .createsHr {
+//         position: sticky;
+//     }
+//     .footerBtn {
+//         display: flex;
+//         justify-content: center;
+//         padding: 4%;
+
+//         .create {
+//             color: white;
+//             background-color: #3598f4;
+//             // margin-top: 5%;
+//             // width: 5vw;
+//             width: auto;
+//             text-align: center;
+//         }
+//     }
+//     label {
+//         margin-top: 2%;
+//         // color: #7b7d86;
+//         // margin-left: 2%;
+//         // margin-bottom: 0%;
+//         // margin-top: 2%;
+//     }
+
+//     .socialMedia {
+//         padding-top: 1.5%;
+//         padding-bottom: 1.5%;
+//     }
+//     .optionLine {
+//         display: flex;
+//         margin-top: 5px;
+//         .checkOption {
+//             cursor: pointer;
+//             display: flex;
+//             padding: 2px;
+//             margin-right: 3px;
+//             border: 1.5px solid #34a38b;
+//             background-color: white;
+//             color: white;
+//             border-radius: 30px;
+//             width: 20px !important;
+//             height: 20px !important;
+//             cursor: pointer;
+//         }
+
+//         .checkedOption {
+//             border: 1.5px solid #44d7b6 !important;
+//             background-color: #44d7b6 !important;
+//         }
+//         .file {
+//             white-space: nowrap;
+//             overflow: hidden;
+//             text-overflow: ellipsis;
+
+//             display: flex;
+//             align-items: center;
+//             background-color: #f1f1f1;
+//             border-radius: 3px;
+//             padding: 2px;
+//             .fileImg {
+//                 width: 15px;
+//                 margin: 5px;
+//             }
+//             span {
+//                 font-weight: normal;
+//                 float: right;
+//             }
+//         }
+//     }
+// }

@@ -1,0 +1,41 @@
+.newGroupTo p {
+  margin: 5px;
+  min-width: 20px;
+  outline: none;
+  display: inline-block;
+}
+
+.newGroupTo {
+  background-color: transparent;
+  border: none !important;
+  border-color: transparent;
+}
+.groupName {
+  margin-bottom: 10px;
+  caret-color: 6dd41f;
+}
+.contactsForGroupCard {
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  left: 10px;
+  top: 70px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1000;
+  padding-bottom: 10px;
+  max-width: 300px;
+}
+.createGroupIcon {
+  color: #6dd41f;
+  margin: 5px 10px;
+  cursor: pointer;
+  float: right;
+}
+.crGrButtons {
+  display: flex;
+  justify-content: space-between;
+  // .closeBtn{
+  //   margin-right: 10px;
+  // }
+}

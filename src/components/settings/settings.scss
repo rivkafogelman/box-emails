@@ -1,0 +1,48 @@
+.settings {
+    margin: 12px 6px 12px 12px;
+    flex-grow: 1;
+    border-radius: 10px;
+    background-color: white;
+    width: -webkit-fill-available;
+    padding: 3%;
+}
+
+.title {
+    color: #0a102e;
+    opacity: 0.8;
+    font-weight: 800;
+}
+
+.label {
+    color: #3598f4;
+    font-weight: bold;
+}
+
+.box {
+    border: 1px solid #0a102e;
+    border-radius: 5px;
+    padding: 1.5%;
+}
+a {
+    color: black !important;
+    opacity: 0.9;
+}
+
+.addEmail {
+    color: #0a102e;
+    opacity: 0.8;
+    font-weight: 800;
+}
+
+hr {
+    background-color: #87c5ff;
+}
+
+.customDiv {
+    padding-left: 0% !important;
+    margin-left: 1.5%;
+}
+
+.pointer {
+    cursor: pointer;
+}

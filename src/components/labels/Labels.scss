@@ -1,0 +1,149 @@
+.labels{
+.tagColorPicker,
+.tagColorInput {
+  width: 1px !important;
+  height: 1px !important;
+  opacity: 0;
+}
+.checkedTagIcon {
+  color: #26335e;
+  padding-left: 1.5px;
+  padding-top: 2.5px;
+  font-size: 7px;
+}
+
+.tagIcons {
+  float: right;
+}
+
+.removeTag {
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.tagColorDivInConfigurator,
+.tagColorDiv,
+.tagColorDivAll {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+.check,
+.check svg {
+  position: absolute;
+  font-size: 18px;
+}
+
+.tagColorDiv {
+  margin-right: 5px;
+}
+
+.oneTagDiv {
+  padding: 2% 6%;
+  white-space: nowrap !important;
+  cursor: pointer;
+  margin-left:14%;
+  p {
+    display: inline;
+  }
+ 
+}
+.labelNameBorder {
+  border-radius: 2px;
+  display: inline-block;
+  margin-left: 5%;
+  width: 65%;
+  padding: 7% 2%;
+  background-color: unset;
+  outline: none;
+  caret-color: transparent;
+}
+
+.searchTag p {
+  white-space: nowrap;
+  text-transform: capitalize;
+  outline: none;
+  border-width: 0px 0px 0.5px 0px;
+  border-color: #75798e;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.searchStar {
+  margin-top: -5px;
+  font-size: 17px;
+  margin-left: -1.5px;
+  margin-right: 11px;
+}
+
+.labelsColorDiv {
+  display: inline-block;
+  margin-bottom: -3px;
+  border: 1px solid #ffff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.tagTitleInput:focus,
+.tagTitleInput {
+  outline: none;
+  border-width: 0px 0px 0.5px 0px;
+  border-color: #75798e, 1px;
+  background-color: transparent;
+  margin-left: 3%;
+  width: 65%;
+  color: #afb0b9;
+  font-size: 13px;
+}
+
+.tagTitleInput::placeholder {
+  color: #afb0b9;
+}
+
+.allTags p {
+  margin-left: 0px !important;
+}
+
+
+.labelSelected {
+  background: rgba(101, 232, 255, 0.188235) 0% 0% no-repeat padding-box;
+}
+
+.labels > div {
+  padding-left: 15%;
+}
+.labels .systemColors{
+  padding: 2% 0% 2% 6% !important;
+  border-radius: 3px;
+  z-index: 1000;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 190px;
+  box-shadow: 0 8px 10px 1px #00000029, 0 3px 14px 2px #00000029, 0 5px 5px -3px #00000029;
+  margin: 1%;
+}
+
+// .labelMargin{
+//   margin: 2% 0%;
+// }
+.labelPadding{
+  padding: 4% 15%;
+  margin-left: 25%;
+}
+.lft{
+  margin-left: 28% !important;
+  padding-left: 4% !important;
+}
+.imgTrashIcon{
+  height: 90%;
+  width: 90%;
+}
+.disable {
+  pointer-events: none;
+
+}
+}

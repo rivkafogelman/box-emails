@@ -1,0 +1,28 @@
+.warpConfirm {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7B7D86 !important;
+    
+    .cardConfirm{
+        border-top:6px solid #3598F4;
+
+        .bellIcon{
+            color: #3598F4;
+            border-radius: 50%;
+            box-shadow: 0px 3px 6px #00000029;
+            padding: 2%;
+            font-size: 5rem;
+        }
+        .cardBodyText{
+            color: #7B7D86;
+        }
+   
+       
+    }
+    
+}
+.switchTag:hover{
+box-shadow: none !important;
+}

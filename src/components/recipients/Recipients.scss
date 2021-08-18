@@ -1,0 +1,316 @@
+
+.correctEmail {
+  background-color: #e9e9e9a1;
+}
+
+.incorrectEmail {
+  background-color: #f84a20;
+  color: white;
+}
+.incorrectEmail .removeIcon {
+  color: #7b7d86;
+}
+
+.notification {
+  background-color: #6236fc;
+  color: #ffffff;
+}
+.notificationIcon {
+  color: #ffffff;
+  background-color: #6236fc;
+  border-radius: 50%;
+  padding: 20%;
+  font-size: 1rem;
+}
+.messageEmail {
+  padding: 2px 10px;
+  float: left;
+  border-radius: 30px;
+  margin: 0 5px 0 5px;
+  // margin: 5px 0px 5px 5px;
+}
+.newWaveSubject,
+.newMessageTo {
+  background-color: transparent;
+  border: none !important;
+  border-color: transparent;
+  padding: 7px 5px;
+  // display: flex;
+  // background-color: rgb(231, 171, 171) !important;
+}
+.newMessageTo,
+.replyTo {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  // overflow-x: auto;
+  // overflow-y: unset;
+  display: flex;
+  // justify-content: space-between;
+  // .warpTo {
+  //   display: flex;
+  //   align-items: baseline;
+  // }
+}
+.newMessageTo p {
+  margin: 5px 5px 0 5px;
+  min-width: 20px;
+  outline: none;
+  float: left;
+}
+
+.contactImg {
+  width: 33px;
+  height: 33px;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+.contactsForMessageCard {
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  left: 30px;
+  border-radius: 5px;
+  position: absolute !important;
+  z-index: 1000;
+  padding-bottom: 10px;
+  min-width: 150px;
+}
+.contactsForMessageCardinSearch {
+  left: auto;
+}
+
+.contactsForMessageCard .contactEmail,
+.contactsForMessageCard .contactName {
+  white-space: nowrap;
+  // overflow: hidden;
+  // text-overflow: ellipsis;
+  // max-width: 200px;
+}
+
+// .contactNameAndEmail:hover {
+//   background-color: #f9f9f9;
+// }
+.activeContactNameAndEmail {
+  background-color: #f1f1f3;
+}
+.contactNameAndEmail {
+  justify-content: flex-start;
+  align-items: center;
+  .profile {
+    padding-right: 10px;
+    .contactThumbnail {
+      border-radius: 30px;
+      width: 30px;
+    }
+  }
+  .groupInList {
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+
+.group {
+  background-color: #6dd41f;
+}
+.groupName,
+.groupName:hover {
+  outline: none;
+}
+.createGroupBtn {
+  cursor: pointer;
+  padding: 1px 8px;
+  margin: 5px;
+  float: right;
+  border: 1px solid #42c153;
+  border-radius: 30px;
+  color: #42c153;
+  white-space: nowrap;
+  height: fit-content;
+}
+.warpCreateGroup {
+  overflow: auto;
+  padding: 8px;
+  .firstLine {
+    display: flex;
+    justify-content: space-between;
+    .groupName {
+      display: inline;
+      width: max-content;
+      background-color: #f1f1f1;
+      border-radius: 3px;
+      border-width: 0 !important;
+      outline: none !important;
+      border-radius: 30px;
+      padding: 4px 8px;
+      margin-bottom: 0px !important;
+      // padding: 13px;
+    }
+    .invalidName {
+      border-width: 1px !important;
+      border-color: #f84a20 !important;
+    }
+    .nameExistsError {
+      color: #f84a20;
+      display: block;
+      margin-left: 10px;
+    }
+    .closeCreateGroup {
+      color: #7b7d86;
+      float: right;
+    }
+    .createNewGroupBtn {
+      border-radius: 50px !important;
+      padding: 2px 10px !important;
+      margin: 0 !important;
+    }
+  }
+  .groupEmailsLine {
+    margin-top: 5px;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    border: 1px solid #42c153;
+    border-radius: 30px;
+    color: #42c153;
+    padding-right: 5px;
+  }
+}
+
+[contentEditable="true"]:empty:not(:focus):before {
+  content: attr(data-text);
+}
+
+.newMessageTo .fromSearchSpan {
+  float: left !important;
+  margin-top: 7px !important;
+  margin-left: 2px !important;
+  color: gray;
+}
+.newMessageTo .underLine {
+  text-decoration: underline;
+  border-bottom: 2px solid currentColor;
+}
+
+.toWithCc {
+  display: flex;
+  flex-direction: row;
+  margin-right: 3px;
+}
+
+.copySpan {
+  margin-top: 0% !important;
+  float: left !important;
+}
+.copy {
+  height: 32px !important;
+  padding-top: 0% !important;
+}
+
+.copyP {
+  margin: 0px 0px 0px 4px !important;
+}
+
+.toOption,
+.toOptionActive {
+  cursor: pointer;
+  padding: 1px 8px;
+  border-radius: 30px;
+  margin: -5%;
+  border: 1px solid;
+  display: flex !important;
+}
+.toOption {
+  padding: 5px 10px !important;
+}
+
+.toOptionActive {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.toOptionEmail,
+.toOptionActiveEmail {
+  border-color: #7b7d86;
+  color: #7b7d86;
+}
+.toOptionCreate,
+.toOptionActiveCreate {
+  border-color: #42c153;
+  color: #42c153;
+}
+.toOptionNotification,
+.toOptionActiveNotification {
+  border-color: blue;
+  color: blue;
+  
+}
+.toOptionSms,
+.toOptionActiveSms {
+  border-color: pink;
+  color: pink;
+}
+
+.toOptionActiveEmail:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.toOptionActiveCreate:hover {
+  background-color: #42bc232b;
+}
+.toOptionActiveNotification:hover {
+  background-color: #0000ff13;
+}
+.toOptionActiveSms:hover {
+  background-color: rgba(255, 192, 203, 0.15);
+}
+
+.dropdownToOptions {
+  position: absolute !important;
+  right: 0%;
+  padding: 0% !important;
+  margin-top: 5px;
+  .dropdownToOptionsMenu {
+    margin-top: 7px !important;
+    padding: 0% 7px;
+    right: 0%;
+    min-width: 130px !important;
+  }
+}
+
+.newMessageTo {
+  .col-1 {
+    padding: 7px 0px 8px 10px !important;
+    flex: 0 0 6.333333% !important;
+    max-width: 6.333333% !important;
+    margin: 0% !important;
+
+  }
+  .col-1Expand {
+    padding: 10px 0px 5px 10px !important;
+    flex: 0 0 3.333333% !important;
+    max-width: 3.333333% !important;
+    margin: 0% !important;
+  }
+
+  .col-8 {
+    flex: 0 0 68.666667% !important;
+    max-width: 68.666667% !important;
+    padding: 0% !important;
+  }
+  .col-9 {
+    flex: 0 0 80% !important;
+    max-width: 80% !important;
+    padding: 0% !important;
+  }
+  .col-10 {
+    flex: 0 0 85.33333% !important;
+    max-width: 85.33333% !important;
+    padding: 0% !important;
+  }
+  .col-11 {
+    flex: 0 0 93.33333% !important;
+    max-width: 93.33333% !important;
+    padding: 0% !important;
+  }
+}

@@ -1,0 +1,97 @@
+.header1 {
+  color: #7b7d86;
+  background: #f1f1f3;
+  height: 5vh;
+  text-transform: uppercase;
+}
+
+.createBtn {
+  background-color: #3598f4;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+.signaturesList {
+
+  margin-top: 2vh;
+  overflow-y: auto;
+  max-height: 80vh;
+  min-height: 75vh;
+  // margin: 50px 20px;
+
+  .headerSignature {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 2vh;
+  }
+
+  .headerText {
+    max-width: 155px;
+  }
+
+  .mySignatureHeader {
+    line-height: 50%;
+    width: 60vw;
+    height: 6vh;
+    border-radius: 0px 10px 0px 0px;
+    color: black !important;
+  }
+
+  .alertClass {
+    margin-left: 1vw;
+    color: #2382DB;
+    font-size: small;
+  }
+
+  .create {
+    height: 6vh;
+    line-height: 50%;
+    background-color: #3598f4;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-top: 7px;
+  }
+
+  .signatureRow {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border-bottom: 1px solid;
+    border-color: #f1f1f3 !important;
+  }
+
+  .col {
+    text-align: center;
+    margin-left: 3vw;
+  }
+  
+}
+
+.pic {
+  margin-left: 1vw;
+}
+
+.trc {
+  margin-top: 2vh;
+}
+.icon {
+  margin-left: 2vh;
+}
+.top1 {
+  margin-top: 1vh;
+}
+td {
+  color: #0a102e;
+  font: normal normal medium 18px/24px Roboto;
+}
+th {
+  margin-top: 0.8vh;
+}
+
+.alertDiv {
+  margin-top: 10px;
+}
+// .col1 {
+//   margin-left: 4vw;
+// }

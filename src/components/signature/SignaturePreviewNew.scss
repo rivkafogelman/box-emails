@@ -1,0 +1,56 @@
+.newPerview {
+    position: fixed !important;
+    bottom: 0px !important;
+    align-self: center;
+    width: 500px ;
+    .newWaveTitle {
+        padding: 7px 15px;
+        text-align: start !important;
+        // unicode-bidi: plaintext !important;
+        height: 40px;
+    }
+    #title1 {
+        font-size: 25px;
+        color: #7b7d86;
+    }
+    #title2 {
+        font-size: 15px;
+        color: #7b7d86;
+    }
+    .newMessageDiv {
+        // pointer-events: all;
+        border: 1px #e8e7f2 solid;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        width: 490px;
+
+        height:  50vh;
+        border-width: 0px;
+        border-radius: 15px 15px 0px 0px;
+        position: relative;
+        // flex-direction: column;
+        min-width: 0;
+        // word-wrap: break-word;
+        background-color: #fff;
+        // background-clip: border-box;
+        height: 50vh;
+        // margin-bottom: 0px;
+        opacity: 1 !important;
+        // align-self: end !important;
+        
+    }
+    .headLine {
+        margin: 8px 5px 0 5px;
+        min-width: 20px;
+        outline: none;
+        display: inline-block;
+    }
+    .preview {
+        position: fixed !important;
+        bottom: 15px !important;
+        
+    }
+    .desc {
+        margin-bottom: 50px;
+        align-items: center !important;
+    }
+}

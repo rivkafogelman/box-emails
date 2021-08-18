@@ -1,0 +1,163 @@
+.usersManager {
+    overflow-y: auto;
+    margin: 12px 6px 12px 12px;
+    flex-grow: 1;
+    border-radius: 10px;
+    background-color: white;
+    width: -webkit-fill-available;
+    padding: 3%;
+    .title {
+        color: #0a102e;
+        opacity: 0.8;
+        font-weight: 800;
+    }
+    
+    .label {
+        color: #3598f4 !important;
+        font-weight: bold;
+    }
+    
+    .box {
+        border: 1px solid #0a102e;
+        border-radius: 5px;
+        // padding: 1.5%;
+        margin-top: 1vh;
+    }
+    span {
+        color: black !important;
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    
+    .addEmail {
+        color: #0a102e;
+        opacity: 0.8;
+        font-weight: 800;
+    }
+    
+    hr {
+        background-color: #87c5ff;
+    }
+    
+    .customDiv {
+        // padding: 1.5%;
+        // padding-left: 2% !important;
+        // margin-left: 1.5%;
+    }
+    
+    .pointer {
+        cursor: pointer;
+    }
+    .create {
+       height: 6vh;
+       line-height: 50%;
+       border: none;
+       border-radius: 4px;
+    }
+    .usersInput {
+        display: inline;
+        width: max-content;
+        height: 3.5vh;
+        background-color: #f1f1f1;
+        border-radius: 6px;
+        border-width: 0 !important;
+        outline: none !important;
+        // border-radius: 30px;
+       padding: 4px 8px;
+       margin-bottom: 0px !important;
+       overflow-y: auto;
+       margin-right: 1vw;
+       margin-left: 1vw;
+       margin-top: 7px;
+    }
+
+    .invalidEmail {
+        border-width: 1px !important;
+        border-color: #f84a20 !important;
+    }
+    .light {
+        // background-color: #3598F4 ;
+        border: 1px solid #7B7D86;
+        border-radius: 5px 0px 0px 5px;
+        color: #FFFFFF;
+    }
+
+    .dark {
+        border: 1px solid #7B7D86;
+        border-radius: 0px 5px 5px 0px;
+        color: #7B7D86;
+        // background-color: #FFFFFF;
+    }
+
+    .bgLight {
+        background-color: #3598F4 ;
+        color: #FFFFFF;
+    }
+
+    .bgDark {
+        background-color: #FFFFFF;
+        color: #7B7D86;
+
+    }
+
+    .alertClass {
+        margin-left: 1vw;
+        color: #2382DB;
+        font-size: small;
+    }
+
+    .add { 
+        color: #3598F4;
+    }
+
+    .mailInput {
+        width: 150px;
+        border: none;
+        border-bottom: 1px solid #7B7D86 !important;
+        
+    }
+
+    input:focus {
+        outline:none;
+    }
+ 
+    .mailCode {
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .deleteIcon {
+        position: absolute !important;
+        z-index: 2;
+        visibility: hidden;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .attachedImg:hover .deleteIcon {
+        visibility: visible;
+    }
+
+    .imgBg {
+        border-radius: 3px;
+    }
+
+    hr {
+        background-color: #3598F4 !important;
+    }
+
+    .subUsersList {
+        padding: 0, 0, 0, 0 !important;
+    }
+
+    .dHQcjo {
+        left: -13px;
+    }
+    .aoTUt {
+        right: -12px;
+    }
+
+    .textColor {
+        margin-bottom: 1vh !important;
+    }
+}   
